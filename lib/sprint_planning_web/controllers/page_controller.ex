@@ -1,0 +1,7 @@
+defmodule SprintPlanningWeb.PageController do
+  use SprintPlanningWeb, :controller
+
+  def index(conn, _params) do
+    render conn, "index.html"
+  end
+end
